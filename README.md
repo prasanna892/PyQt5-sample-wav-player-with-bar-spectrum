@@ -1,0 +1,1 @@
+# PyQt5-sample-wav-player-with-bar-spectrum
