@@ -94,6 +94,7 @@ class AudioSpectrum(QMainWindow):
         folderAc = QAction('Open Folder',self)
         folderAc.setShortcut('Ctrl+D')
         folderAc.triggered.connect(self.addFiles)
+	return folderAc
 
     # Adding all .wav file in selected folder to player list
     def addFiles(self):
